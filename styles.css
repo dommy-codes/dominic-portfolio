@@ -4,14 +4,24 @@
     
 }
 
+html{
+    overflow-x: hidden;
+}
+
+
 
 body{
-    background: linear-gradient(to right,#d9513f,#eeb158);
+    
+    background: linear-gradient(to right,#da6755,#e9a341);
+    
+    
     color: white;
     h1{
         font-size: 58px;
-        color: rgb(253, 228, 184);
+        color: rgb(252, 226, 178);
         font-weight: 600;
+        text-shadow: rgb(136, 136, 136) 10px 10 50px;
+        
 
         
         
@@ -91,11 +101,6 @@ body{
     }
 }
 
-.experiencecard{
-    
-    margin: 50px;
-    
-}
 
 .card{
     
@@ -126,12 +131,6 @@ body{
 }
 
 .row{
-    .col-sm-3g{
-        background-color: rgba(0,0,0,0.4); 
-        border-radius: 20px; 
-        padding: 20
-
-    }
+    padding: 30px;
     
 }
-
