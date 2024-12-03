@@ -12,6 +12,7 @@ html{
 
 body{
     
+    
     background: linear-gradient(to right,#da6755,#e9a341);
     
     
@@ -79,7 +80,7 @@ body{
 }
 
 .wells{
-    padding-top: 160px;
+    
     
 
     .skillbox{
