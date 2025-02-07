@@ -6,9 +6,13 @@
 
 html{
     overflow-x: hidden;
+    
+    
 }
 
-
+.col{
+    padding: 300px;
+}
 
 body{
     overflow-x: hidden;
@@ -18,18 +22,27 @@ body{
     
     color: white;
     h1{
-        font-size: 80px;
-        color: #da974a;
+        font-size: 5.3vw;
+        color: #f0b36e;
         font-weight: 400;
+        letter-spacing: -2px;
+        font-style: oblique;
+        
         
         
 
         
         
     }
+    @media screen and (max-width: 992px) {
+        h1 {
+            font-size: 9vw; /* Larger font size for wider screens */
+        }
+    }
+    
     h2{
         font-size: 32px;
-        color: #b4a781;
+        color: #cfb976;
         font-weight: 500;
         padding-bottom: 20px;
     }
