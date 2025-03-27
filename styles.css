@@ -6,7 +6,13 @@
 
 html{
     overflow-x: hidden;
+
+    font-family: "Jost", sans-serif !important;
     
+    font-weight: weight;
+    font-style: normal;
+
+
     
 }
 
@@ -14,26 +20,83 @@ html{
     padding: 300px;
 }
 
-body{
-    overflow-x: hidden;
-    
-    background: linear-gradient(to right,#222020,#272727);
-    
-    
+.button {
+    background-color: #ffffff ;
+    border: none;
+    color: rgb(77, 75, 75);
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px;
+    width: 300px;
+    height: 76px;
+    border-radius: 39px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.obutton {
+    background-color: #ffffff ;
+    border: none;
+    color: rgb(77, 75, 75);
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px ;
+    width: 80px;
+    height: 76px;
+    border-radius: 38px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.obutton:hover {
+    background-color: #04AA6D; /* Green */
     color: white;
-    h1{
-        font-size: 5.3vw;
-        color: #f0b36e;
-        font-weight: 400;
-        letter-spacing: -2px;
-        font-style: oblique;
-        
-        
+    
+  }
+
+
+.button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+    
+  }
+
+body{
+    
         
 
+
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Jost", sans-serif !important;
+    background: linear-gradient(to right,#141111,#727272);
+    
+    
+   
+    
+    h1{
+        font-size: 80;
+        color: white;
+        font-weight: 400; 
+        letter-spacing: -2px;
+        transition-duration: 0.3s;
         
         
     }
+    h1:hover {
+        
+        color: #d0563f;
+        
+        
+    }
+
+
     @media screen and (max-width: 992px) {
         h1 {
             font-size: 9vw; /* Larger font size for wider screens */
@@ -41,8 +104,21 @@ body{
     }
     
     h2{
+        font-size: 80;
+        color: white;
+        font-weight: 400; 
+        letter-spacing: -2px;
+        transition-duration: 0.3s;
+    }
+    h2:hover {
+        
+        
+        
+    }
+
+    h3{
         font-size: 32px;
-        color: #cfb976;
+        color:  #fbd1a2;
         font-weight: 500;
         padding-bottom: 20px;
     }
@@ -82,13 +158,31 @@ body{
     }
     
 }
-
+.navbar{margin-bottom: 0;}
 .titlecard{
     padding-top: 180px;
+    padding-bottom: 100px;
+
     color: white;
     
         
     
+    
+}
+
+.parallax {
+    
+    background-image: url("/image/headbird.JPEG");
+    
+    
+    /* Set a specific height */
+    min-height: 900px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    
+    background-size: cover;
     
 }
 
@@ -102,6 +196,8 @@ body{
         justify-content: center;
         border-radius: 10px;
         text-align: center;
+        padding: 20px;
+
         
         height: auto;
         margin-top: 30px;
@@ -172,6 +268,30 @@ body{
 }
 
 .row{
-    padding: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+
     
+    
+}
+.rowstrike{
+    
+    background-color: transparent;
+    background: linear-gradient(to left, transparent 50%, rgb(255, 255, 255) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+
+    
+}
+.rowstrike:hover{
+    h2{color: #d0563f;}
+
+    background-position: left;
+
+}
+
+.footer{
+    padding-top: 200px;
+
 }
