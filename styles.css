@@ -35,23 +35,30 @@ html{
     border-radius: 39px;
     transition-duration: 0.3s;
     cursor: pointer;
+
+    
 }
 
 .obutton {
-    background-color: #ffffff ;
+    
     border: none;
     color: rgb(77, 75, 75);
-    
+    background-color: #ffffff;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     font-size: 39;      
     margin: 7px ;
     width: 80px;
     height: 76px;
     border-radius: 38px;
     transition-duration: 0.3s;
+    vertical-align: middle;
     cursor: pointer;
+
+   
 }
 .obutton:hover {
     background-color: #f7c14f; /* Green */
