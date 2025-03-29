@@ -49,7 +49,7 @@ html{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 39;      
+    font-size: 45;      
     margin: 7px ;
     width: 80px;
     height: 76px;
@@ -62,7 +62,7 @@ html{
 }
 .obutton:hover {
     background-color: #f7c14f; /* Green */
-    color: rgb(114, 99, 99);
+    color: rgb(255, 255, 255);
     
   }
 
@@ -89,7 +89,7 @@ body{
     
     h1{
         font-size: 80;
-        color: white;
+        color: rgb(255, 255, 255);
         font-weight: 400; 
         letter-spacing: -2px;
         transition-duration: 0.3s;
@@ -112,7 +112,7 @@ body{
     
     h2{
         font-size: 80;
-        color: white;
+        color: rgb(255, 255, 255);
         font-weight: 400; 
         letter-spacing: -2px;
         transition-duration: 0.3s;
@@ -125,7 +125,7 @@ body{
 
     h3{
         font-size: 32px;
-        color:  #ffffff;
+        color: rgb(255, 255, 255);
         font-weight: 500;
         padding-bottom: 20px;
     }
