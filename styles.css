@@ -1,5 +1,5 @@
 .navbar{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
    
     
@@ -7,7 +7,7 @@
 
 html{
     overflow-x: hidden;
-
+    
     font-family: "Jost", sans-serif !important;
     
     font-weight: weight;
@@ -20,9 +20,9 @@ html{
 
 
 .button {
-    background-color: #ffffff ;
+    background-color: rgb(53, 53, 53);
     border: none;
-    color: rgb(77, 75, 75);
+    color: white;
     padding: 25px 32px;
     text-align: center;
     text-decoration: none;
@@ -41,8 +41,8 @@ html{
 .obutton {
     
     border: none;
-    color: rgb(77, 75, 75);
-    background-color: #ffffff;
+    color: white;
+    background-color: rgb(53, 53, 53);
     text-align: center;
     text-decoration: none;
     display: inline-flex;
@@ -73,21 +73,22 @@ html{
   }
 
 body{
+    
     overflow-x: hidden;
     overflow-y: hidden;
     font-family: "Jost", sans-serif !important;
-    background: linear-gradient(to right,#1b1b1b,#948d7c);
+    
 
     h1{
-        color: rgb(255, 255, 255);
-        font-size: 70px;
+        color: rgb(53, 53, 53);
+        font-size: 40px;
         font-weight: 400;
     }    
     
     h2{
-        font-size: 80;
-        color: rgb(255, 255, 255);
-        font-weight: 380; 
+        font-size: 100px;
+        color: rgb(53, 53, 53);
+        font-weight: 480; 
         letter-spacing: -2px;
         transition-duration: 0.3s;
         
@@ -120,7 +121,7 @@ body{
 
     h3{
         font-size: 34px;
-        color: rgb(255, 255, 255);
+        color: rgb(53, 53, 53);
         font-weight: 400;
         padding-bottom: 20px;
         margin-top: 18px;
@@ -129,10 +130,10 @@ body{
 
         font-size: 20px;
         font-weight: 400;
-        color: white;
+        color: rgb(53, 53, 53);
         line-height: 1.5;
         a{
-            color: white;
+            color: rgb(53, 53, 53);
         }
     }
 
@@ -146,7 +147,7 @@ body{
         }
         .queenslogo{
             width: 120px; 
-            height: 50px;  
+            height: 55px;  
             border-radius: 5px; 
             border-color: white; 
             margin-right: 7px; 
@@ -157,7 +158,7 @@ body{
 
     @media screen and (max-width: 992px) {
         h2 {
-            font-size: 60px; /* Larger font size for wider screens */
+            font-size: 90px; /* Larger font size for wider screens */
         }
         h3{
             font-size: 25px;
@@ -175,7 +176,7 @@ body{
 
     @media screen and (max-width: 450px) {
         h2 {
-            font-size: 50px; /* Larger font size for wider screens */
+            font-size: 75px; /* Larger font size for wider screens */
         }
         h3{
             font-size: 20px;
@@ -295,10 +296,14 @@ body{
 
 
 .card{
+    background-color: black;
     
     padding: 10px;
     margin-top: 3%;
     border-radius: 50px;
+    border-color: #eeb259;
+    border-width: 10px;
+    
 
 }
 
@@ -307,6 +312,7 @@ body{
     
     font-family: "Jost", sans-serif !important;
     body {
+        
         --color: rgb(255, 255, 255);
         --bgColor: rgba(245, 245, 245);
         min-height: 100vh;
@@ -417,7 +423,7 @@ body{
         background: var(--bgColor);
         position: relative;
         padding-inline: 1.5rem;
-        color: white;
+        color:rgb(53, 53, 53);
       }
       ul li .title {
         overflow: hidden;
